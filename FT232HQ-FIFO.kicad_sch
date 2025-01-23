@@ -4644,17 +4644,6 @@
 		)
 		(uuid "1a3eacb0-523a-4e83-b4f9-a0d42a25b087")
 	)
-	(label "AC8"
-		(at 201.93 130.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1aad4ecc-e427-4f8a-a265-23d09f7dd7a8")
-	)
 	(label "VPHY"
 		(at 63.5 135.89 0)
 		(fields_autoplaced yes)
@@ -4764,17 +4753,6 @@
 			(justify left bottom)
 		)
 		(uuid "522424a6-c675-469a-8195-7e2b700f465d")
-	)
-	(label "AC9"
-		(at 214.63 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5b2d7c86-ab51-4ff8-998a-744b175eadce")
 	)
 	(label "AC8"
 		(at 160.02 106.68 0)
@@ -5277,7 +5255,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1st_commonly:DC3_02x10_2.54_Odd_Even"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
 			(at 207.01 118.11 0)
 			(effects
 				(font
@@ -6729,6 +6707,73 @@
 			(project "FT232-hs2"
 				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 214.63 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cf2203b-3655-49da-b175-f50346c14959")
+		(property "Reference" "#PWR016"
+			(at 220.98 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 130.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 214.63 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67e05cf8-6b8d-4145-8e81-f63b9d71c856")
+		)
+		(instances
+			(project "FT232HQ-FIFO"
+				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -9096,6 +9141,73 @@
 			(project "FT2232"
 				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 201.93 130.81 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f80158ed-b643-4874-9c5b-22be54e1c515")
+		(property "Reference" "#PWR011"
+			(at 195.58 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 198.12 130.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17abe407-7ece-44bd-89d3-94d4d9e4b10c")
+		)
+		(instances
+			(project "FT232HQ-FIFO"
+				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
